@@ -34,7 +34,7 @@
 @media screen and (max-width: 500px) {
     
     video {
-        display: none;
+        overflow: hidden;
     }
     .footer {
         margin-top: 40px;
