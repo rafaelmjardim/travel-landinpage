@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    overflow: hidden;
+    background-image: url('../image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.container {
+    padding: 100px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+/**** HEADER ****/
+.nav-menu {
+    display: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.header nav ul {
+    display: flex;
+    align-items: center;
+}
+.header nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 40px;
+}
+.header nav ul li a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+.header nav ul li a:hover {
+    color: #ed1523;
+    transition: 0.3s;
+}
+.header nav ul img {
+    height: 22px;
+    margin-left: 40px;
+}
+
+/**** CONTENT ****/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 73vh;
+}
+.content h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    max-width: 54.6rem;
+    transition: 0.5s;
+}
+.content h1:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+.content p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    max-width: 52.7rem;
+}
+.btn {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+    background: #E30A17;
+    width: 141px;
+    height: 47px;
+    margin-top: 40px;
+}
+.btn:hover, .details:hover {
+    border: 1px solid #b7b7b775;
+    background-color: rgba(33, 33, 33, 0.58);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/**** FOOTER ****/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.social {
+    min-width: 100px;
+}
+.social img {
+    margin-left: 20px;
+}
+.social img:first-child {
+    margin-left: 0;
+}
+
+/**** CARD ****/
+
+.card {
+    width: 29.5rem;
+    height: 15.5rem; 
+    background: linear-gradient(90.44deg, rgba(255, 255, 255, 0.354) -3.55%, rgba(255, 255, 255, 0) 120.14%);
+    backdrop-filter: blur(23.4074px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+}
+.card h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.card p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.details {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 5.4rem;
+    background: #f01120a3;
+    padding-right: 2rem;
+}
+.details p {
+    font-size: 1.4rem;
+}
+.details img {
+    height: fit-content;
+    margin-left: 15px;
+}
