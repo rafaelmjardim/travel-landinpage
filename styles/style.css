@@ -6,11 +6,11 @@
 }
 html {
     font-size: 10px;
+    overflow: hidden;
 }
 body {
     font-family: 'Rubik', sans-serif;
     color: #fff;
-    overflow: hidden;
     background-image: url('../image/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
